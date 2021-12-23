@@ -2,12 +2,15 @@ package saulmm.myapplication;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.v7.widget.Toolbar;
+
 import android.util.AttributeSet;
 import android.view.View;
 
+import androidx.appcompat.widget.Toolbar;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+
 import de.hdodenhof.circleimageview.CircleImageView;
+
 
 @SuppressWarnings("unused")
 public class AvatarImageBehavior extends CoordinatorLayout.Behavior<CircleImageView> {
