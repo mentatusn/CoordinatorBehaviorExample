@@ -23,7 +23,6 @@ gen-external-apklibs
 local.properties
 gradlew
 gradlew.bat
-gradle/
 build/
 
 #vi
